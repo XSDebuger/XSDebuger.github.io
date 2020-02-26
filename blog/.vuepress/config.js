@@ -1,6 +1,7 @@
 module.exports = {
   title: '不如去吃炸酱面',
   description: '',
+  base: "/blog/",
   theme: '@vuepress/theme-blog', // OR shortcut: @vuepress/blog
   themeConfig: {
     /**

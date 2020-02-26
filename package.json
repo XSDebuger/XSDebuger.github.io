@@ -1,0 +1,21 @@
+{
+  "name": "zjm_de_blog",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "authors": {
+    "name": "zjm",
+    "email": "zjm97@outlook.com"
+  },
+  "repository": "blog/zjm_de_blog",
+  "scripts": {
+    "dev": "vuepress dev blog",
+    "build": "vuepress build blog"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@vuepress/plugin-blog": "^1.9.2",
+    "@vuepress/theme-blog": "^1.0.0",
+    "vuepress": "^1.0.0"
+  }
+}

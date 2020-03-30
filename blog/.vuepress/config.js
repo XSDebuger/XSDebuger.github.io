@@ -53,5 +53,7 @@ module.exports = {
       title: '不如去吃炸酱面',
       description: ''
     },
-  }
+  }, plugins: [
+    'flowchart'
+  ]
 }

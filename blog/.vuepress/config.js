@@ -1,7 +1,7 @@
 module.exports = {
-  title: '不如去吃炸酱面',
+  title: '萧山码农故事',
   description: '',
-  base: "/blog/",
+  base: "/",
   theme: '@vuepress/theme-blog', // OR shortcut: @vuepress/blog
   themeConfig: {
     /**
@@ -50,7 +50,7 @@ module.exports = {
     // 作为特例，默认语言可以使用 '/' 作为其路径。
     '/': {
       lang: 'zh', // 将会被设置为 <html> 的 lang 属性
-      title: '不如去吃炸酱面',
+      title: '萧山码农故事',
       description: ''
     },
   }, plugins: [
